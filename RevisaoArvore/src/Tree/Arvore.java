@@ -17,6 +17,8 @@ public class Arvore <T extends Comparable<T>>{
     }
 
     private void insert(No<T> no, T valor) {
-        
+        if (valor.compareTo(no.getInfo()) > 0) {
+            
+        }
     }
 }

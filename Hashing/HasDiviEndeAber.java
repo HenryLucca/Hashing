@@ -9,6 +9,35 @@ public class HasDiviEndeAber {
         } else {
             vetor = novoVetor;
         }
+
+        novoVetor = enderecamentoAberto(30, vetor);
+        if (novoVetor == null) {
+            System.out.println("Nao foi possivel inserir o valor 30");
+        } else {
+            vetor = novoVetor;
+        }
+
+        novoVetor = enderecamentoAberto(15, vetor);
+        if (novoVetor == null) {
+            System.out.println("Nao foi possivel inserir o valor 15");
+        } else {
+            vetor = novoVetor;
+        }
+
+        novoVetor = enderecamentoAberto(20, vetor);
+        if (novoVetor == null) {
+            System.out.println("Nao foi possivel inserir o valor 20");
+        } else {
+            vetor = novoVetor;
+        }
+
+        novoVetor = enderecamentoAberto(95, vetor);
+        if (novoVetor == null) {
+            System.out.println("Nao foi possivel inserir o valor 95");
+        } else {
+            vetor = novoVetor;
+        }
+
         for (int i = 0; i < vetor.length; i++) {
             System.out.println("Posicao: " + i + " Valor: " + vetor[i]);
         }

@@ -1,6 +1,6 @@
 public class HashingDivisao {
     public static void main(String[] args) {
-        int[] vetor = new int[100];
+        int[] vetor = new int[10];
         int pos;
 
         pos = h(5, vetor.length);

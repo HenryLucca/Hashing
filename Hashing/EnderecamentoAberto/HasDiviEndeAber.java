@@ -1,3 +1,4 @@
+package EnderecamentoAberto;
 public class HasDiviEndeAber {
     public static void main(String[] args) {
         int[] vetor = new int[10];

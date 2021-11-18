@@ -4,8 +4,7 @@ public class Dados {
     private int valor;
     private int proximo;
 
-    public Dados(int valor) {
-        this.valor = valor;
+    public Dados() {
         this.proximo = -2;
     }
 

@@ -23,4 +23,11 @@ public class Dados {
     public void setProximo(int proximo) {
         this.proximo = proximo;
     }
+
+    @Override
+    public String toString() {
+        return "[proximo=" + proximo + ", valor=" + valor + "]";
+    }
+
+    
 }

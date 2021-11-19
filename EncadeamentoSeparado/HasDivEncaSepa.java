@@ -3,7 +3,7 @@ import EncadeamentoSeparado.Lista.LSE;
 
 public class HasDivEncaSepa {
     public static void main(String[] args) {
-        LSE[] vetor = new LSE[10];
+        LSE[] vetor = new LSE[100];
 
         encadeamentoSeparado(5, vetor);
         encadeamentoSeparado(30, vetor);

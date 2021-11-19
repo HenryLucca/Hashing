@@ -1,7 +1,7 @@
 package EnderecamentoAberto;
 public class HasDiviEndeAber {
     public static void main(String[] args) {
-        int[] vetor = new int[10];
+        int[] vetor = new int[100];
         int[] novoVetor;
 
         novoVetor = enderecamentoAberto(5, vetor);

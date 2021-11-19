@@ -4,7 +4,7 @@ public class HasDivEncaCoa {
     public static void main(String[] args) {
         int porao = 10;
         int pos;
-        Dados[] vetor = new Dados[5 + porao];
+        Dados[] vetor = new Dados[100 + porao];
 
         for (int i = 0; i < vetor.length; i++) { // inicializa cada posicao do vetor com a chave = -2.
             vetor[i] = new Dados();

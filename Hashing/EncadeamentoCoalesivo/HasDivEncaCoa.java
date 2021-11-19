@@ -19,8 +19,14 @@ public class HasDivEncaCoa {
         pos = h(15, (vetor.length - porao));
         encadeamentoCoalesivo(15, vetor, pos);
 
-         pos = h(20, (vetor.length - porao));
-         encadeamentoCoalesivo(20, vetor, pos);
+        pos = h(20, (vetor.length - porao));
+        encadeamentoCoalesivo(20, vetor, pos);
+
+        pos = h(25, (vetor.length - porao));
+        encadeamentoCoalesivo(25, vetor, pos);
+
+        pos = h(30, (vetor.length - porao));
+        encadeamentoCoalesivo(30, vetor, pos);
 
         for (int i = 0; i < vetor.length; i++) {
             System.out.println(vetor[i]);
@@ -46,6 +52,8 @@ public class HasDivEncaCoa {
                     vetor[i - 1].setProximo(-1);
                     vetor[posAtual].setProximo(i - 1);
                     break;
+                } else if (i > pos) {
+                    i = pos;
                 } else {
                     encadeamentoCoalesivo(valor, vetor, vetor[i].getProximo());
                     break;
